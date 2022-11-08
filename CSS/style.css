@@ -1,0 +1,200 @@
+@import url('https://fonts.googleapis.com/css2?family=Oleo+Script+Swash+Caps&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Oleo+Script+Swash+Caps&family=Roboto:wght@100;400&family=Rubik:ital,wght@0,300;1,300&display=swap');
+
+*{
+    box-sizing: border-box;
+}
+
+body{
+    margin: 0;
+    font-family: 'Roboto', sans-serif;
+}
+
+.navbar{
+    height: 100px;
+    background: white;
+    flex-flow: row wrap;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: fixed;
+    width: 100%;
+}
+
+.logo{
+    flex: 20%;
+    /* border: 1px solid rgb(80, 5, 255); */
+    text-align: left;
+    margin-left: 10%;
+}
+
+.logo h1{
+    font-family: 'Oleo Script Swash Caps';
+    color: #9932CC;
+    font-size: 34px;
+}
+
+.menu{
+    flex: 70%;
+    /* border: 1px solid black; */
+    text-align: right;
+    padding: 20px;
+}
+
+.menu a{
+    color: #9932CC;
+    text-decoration: none;
+    font-size: 20px;
+    padding: 20px 16px;
+}
+
+.menu a:hover{
+    color:#FF00FF;
+    border-top: 4px solid #9932CC;
+}
+
+#buttom{
+    background: #9932CC;
+    padding: 10px 25px;
+    color: white;
+    border-radius: 5px;
+    border-color: black;
+    margin-right: 10%;
+    margin-left: 5%;
+}
+
+#buttom:hover{
+    border: none;
+    background :#FF00FF;
+}
+
+.header{
+    display: flex;
+    flex-flow: row wrap;
+    height: 600px;
+    background: white;
+    justify-content: center;
+    align-items: center;
+    padding-top: 100px;
+}
+
+.headline{
+    flex: 40%;
+    margin-left: 10%;
+    /* border: 1px solid black; */
+}
+
+.headline h2{
+    font-weight: 900;
+    font-size: 20px;
+    color:	#6A5ACD;
+    padding: 0;
+    margin: 0;
+}
+
+.headline p{
+    color: grey;
+    text-align: left;
+}
+
+.contact-btn{
+    background:#e663e6;
+    padding: 20px;
+    color: white;
+    text-transform: uppercase;
+    border-radius: 8px;
+    text-decoration: none;
+    display: inline-block;
+}
+
+.contact-btn:hover{
+    background: #6A5ACD;
+}
+
+.img-headline{
+    margin-right: 10%;
+    flex: 40%;
+    /* border: 1px solid brown; */
+    text-align: center;
+}
+
+section{
+    display: inline-block;
+    margin-top: 80px;
+    /* border: solid 1px black; */
+    margin-left: 5%;
+    margin-right: 5%;
+    text-align: center;
+    padding: 5%;
+}
+
+section h2{
+    width: 100%;
+    font-size: 50px;
+    margin: 0;
+    font-family: 'Oleo Script Swash Caps';
+    font-weight: bold;
+    color: #6A5ACD;
+}
+
+.servicos{
+    display: inline-block;
+    margin-top: 5%;
+}
+
+.card{
+    display: inline-block;
+    width: 30%;
+    padding: 20px;;
+    margin: 1%;
+    border: 1px solid #e663e6;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+.text-oculto{
+    display: none;
+}
+
+.card:hover{
+    background: #e663e6;
+    color: white;
+    padding: 30px;
+}
+
+.card:hover img{
+    display: none;
+}
+
+.card:hover .card-text{
+    display: none;
+}
+
+.card:hover .text-oculto{
+    display: block;
+}
+
+footer{
+    margin-top: 100px;
+    height: 400px;
+    background-image: linear-gradient(180deg, #2f208a,#2e2e6e, rgb(10, 10, 19)  ); 
+    text-align: center;
+    border-top: 5px solid #e663e6;
+}
+
+.logo-footer{
+    padding: 100px;
+}
+
+.agencia{
+    font-family: 'Oleo Script Swash Caps';
+    color: white;
+    font-size: 34px;   
+}
+
+.wpp{
+    position: fixed;
+    bottom: 5px;
+    right: 5px;
+    width: 80px;
+}

@@ -1,0 +1,86 @@
+@import url('https://fonts.googleapis.com/css2?family=Oleo+Script+Swash+Caps&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Oleo+Script+Swash+Caps&family=Roboto:wght@100;400&family=Rubik:ital,wght@0,300;1,300&display=swap');
+
+*{
+    box-sizing: border-box;
+}
+
+body{
+    margin: 0;
+    font-family: 'Roboto', sans-serif;
+}
+
+.navbar{
+    height: 100px;
+    background: white;
+    flex-flow: row wrap;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.logo{
+    flex: 20%;
+    /* border: 1px solid rgb(80, 5, 255); */
+    text-align: center;
+    margin-left: 10%;
+}
+
+.logo h1{
+    font-family: 'Oleo Script Swash Caps';
+    color: #9932CC;
+    font-size: 34px;
+}
+
+.menu{
+    flex: 70%;
+    /* border: 1px solid black; */
+    text-align: right;
+    padding: 20px;
+}
+
+.menu a{
+    color: #9932CC;
+    text-decoration: none;
+    font-size: 20px;
+    padding: 20px 16px;
+}
+
+.menu a:hover{
+    color:#FF00FF;
+    border-top: 4px solid #9932CC;
+}
+
+#buttom{
+    background:	#FF00FF;
+    padding: 10px 25px;
+    color: white;
+    border-radius: 5px;
+    border-color: black;
+    margin-right: 10%;
+    margin-left: 5%;
+}
+
+#buttom:hover{
+    border: none;
+    background: #ff2978;
+}
+
+.header{
+    display: flex;
+    flex-flow: row wrap;
+    height: auto;
+    background: grey;
+}
+
+.headline{
+    flex: 40%;
+    margin-left: 10%;
+    border: 1px solid black;
+}
+
+.img-headline{
+    margin-right: 10%;
+    flex: 40%;
+    text-align: center;
+}
